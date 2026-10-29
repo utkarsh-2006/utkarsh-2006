@@ -1,0 +1,16 @@
+# Local scratch scripts and preview artifacts
+.scratch/
+
+# Temporary backups
+*.bak
+*.bak2
+*.backup
+*.tmp
+
+# Presentation slides and screenshots
+*.pptx
+Screenshot*.png
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
