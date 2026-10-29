@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" width="420" height="200">
+  <rect width="420" height="200" fill="#FAF9F6"/>
+  <line x1="0" y1="0" x2="420" y2="0" stroke="#10233F" stroke-width="2"/>
+  <rect x="25" y="0" width="40" height="2" fill="#306FE5"/>
+
+  <!-- Title Bar -->
+  <text x="25" y="24" font-family="monospace" font-size="7.5" fill="#306FE5" font-weight="700">THE DAILY LEDGER // MULTIPLAYER</text>
+  <text x="25" y="38" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Deterministic Financial Board Game Engine</text>
+  <line x1="25" y1="45" x2="395" y2="45" stroke="#D4D9E2" stroke-width="0.6"/>
+
+  <!-- Left: District Grid & Auction Ticker -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="170" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    
+    <!-- Mini Monopoly / District board layout -->
+    <g transform="translate(25, 15)">
+      <!-- Board loop -->
+      <rect x="0" y="0" width="90" height="70" fill="none" stroke="#10233F" stroke-width="1.2"/>
+      
+      <!-- Corner special spaces -->
+      <rect x="0" y="0" width="15" height="15" fill="#EBF2FC"/>
+      <rect x="75" y="0" width="15" height="15" fill="#EBF2FC"/>
+      <rect x="75" y="55" width="15" height="15" fill="#EBF2FC"/>
+      <rect x="0" y="55" width="15" height="15" fill="#EBF2FC"/>
+
+      <!-- District tiles with colors -->
+      <rect x="20" y="0" width="15" height="8" fill="#D32F2F"/>
+      <rect x="40" y="0" width="15" height="8" fill="#D32F2F"/>
+      <rect x="60" y="0" width="15" height="8" fill="#D32F2F"/>
+      
+      <rect x="20" y="62" width="15" height="8" fill="#306FE5"/>
+      <rect x="40" y="62" width="15" height="8" fill="#306FE5"/>
+      
+      <!-- Center Auction Bid Indicator -->
+      <text x="45" y="32" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700" text-anchor="middle">AUCTION: D-04</text>
+      <text x="45" y="42" font-family="system-ui, sans-serif" font-size="7" fill="#306FE5" font-weight="700" text-anchor="middle">$1,250,000</text>
+    </g>
+
+    <text x="85" y="112" font-family="monospace" font-size="6" fill="#657187" text-anchor="middle">AUTHORITATIVE COLYSEUS ROOM</text>
+  </g>
+
+  <!-- Right: Architecture & Distributed Sync -->
+  <g transform="translate(210, 55)">
+    <rect x="0" y="0" width="185" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <text x="12" y="16" font-family="monospace" font-size="6.5" fill="#657187">ENGINE SPECIFICATION</text>
+
+    <g transform="translate(12, 26)">
+      <text x="0" y="10" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">WebSocket State Patching</text>
+      <text x="135" y="10" font-family="monospace" font-size="6.5" fill="#306FE5">20 Hz</text>
+      <line x1="0" y1="14" x2="160" y2="14" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <text x="0" y="28" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Deterministic Economy Rules</text>
+      <text x="135" y="28" font-family="monospace" font-size="6.5" fill="#10233F">LOCKED</text>
+      <line x1="0" y1="32" x2="160" y2="32" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <text x="0" y="46" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Vitest Test Suites</text>
+      <text x="135" y="46" font-family="monospace" font-size="6.5" fill="#1B7A4A">PASSING</text>
+      <line x1="0" y1="50" x2="160" y2="50" stroke="#D4D9E2" stroke-width="0.5"/>
+    </g>
+
+    <g transform="translate(12, 90)">
+      <rect x="0" y="0" width="160" height="20" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F">TYPESCRIPT · COLYSEUS · NEXT.JS</text>
+    </g>
+  </g>
+</svg>

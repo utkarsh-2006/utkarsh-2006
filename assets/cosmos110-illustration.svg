@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280">
+  <defs>
+    <pattern id="cosmos-dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.5" fill="#D4D9E2"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="280" fill="#FAF9F6"/>
+  <rect width="880" height="280" fill="url(#cosmos-dots)"/>
+
+  <!-- Top Title -->
+  <g transform="translate(45, 24)">
+    <text x="0" y="0" font-family="monospace" font-size="8" fill="#306FE5" letter-spacing="2" font-weight="700">GEOSPATIAL THERMAL INTELLIGENCE // SIH PROTOTYPE</text>
+    <text x="0" y="16" font-family="system-ui, sans-serif" font-size="14" fill="#10233F" font-weight="700">COSMOS110: Satellite Thermal Anomaly Detection &amp; Spatial Classification</text>
+    <line x1="0" y1="26" x2="790" y2="26" stroke="#D4D9E2" stroke-width="0.8"/>
+  </g>
+
+  <!-- Left: Satellite Scan & Geographic Contours (x=45, y=65) -->
+  <g transform="translate(45, 65)">
+    <rect x="0" y="0" width="450" height="160" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    
+    <!-- Topographic Contour Lines -->
+    <path d="M 20 140 C 80 110, 140 130, 200 110 C 260 90, 320 120, 420 80" fill="none" stroke="#D4D9E2" stroke-width="1"/>
+    <path d="M 20 110 C 100 80, 160 100, 240 70 C 300 50, 360 80, 420 50" fill="none" stroke="#D4D9E2" stroke-width="0.8"/>
+    <path d="M 30 80 C 110 50, 180 70, 260 40 C 320 20, 370 50, 420 20" fill="none" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <!-- NASA Satellite Sensor Sweep Cone -->
+    <g transform="translate(80, 15)">
+      <!-- Satellite glyph -->
+      <rect x="-10" y="-8" width="20" height="16" fill="#10233F"/>
+      <line x1="-22" y1="0" x2="-10" y2="0" stroke="#306FE5" stroke-width="2"/>
+      <line x1="10" y1="0" x2="22" y2="0" stroke="#306FE5" stroke-width="2"/>
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+
+      <!-- Scan Beam -->
+      <polygon points="0,8 100,130 220,130" fill="#EBF2FC" fill-opacity="0.3" stroke="#306FE5" stroke-width="0.8" stroke-dasharray="2,2"/>
+      <text x="25" y="10" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="700">NASA FIRMS SENSOR SWEEP</text>
+    </g>
+
+    <!-- Thermal Hotspots / Clusters -->
+    <!-- Hotspot A: Industrial Flare (High intensity, highly persistent) -->
+    <g transform="translate(240, 95)">
+      <circle cx="0" cy="0" r="12" fill="#E65100" fill-opacity="0.15"/>
+      <circle cx="0" cy="0" r="6" fill="#F57C00" fill-opacity="0.4"/>
+      <circle cx="0" cy="0" r="3" fill="#D84315"/>
+      
+      <!-- Coordinate Callout -->
+      <line x1="0" y1="0" x2="35" y2="-20" stroke="#657187" stroke-width="0.8"/>
+      <line x1="35" y1="-20" x2="90" y2="-20" stroke="#657187" stroke-width="0.8"/>
+      <text x="38" y="-24" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700">CLUSTER-01 // FLARE</text>
+      <text x="38" y="-14" font-family="monospace" font-size="6" fill="#657187">FRP: 142 MW · 98% PERSIST</text>
+    </g>
+
+    <!-- Hotspot B: Agricultural / Wildfire (Spreading, low persistence) -->
+    <g transform="translate(140, 120)">
+      <circle cx="0" cy="0" r="10" fill="#FBC02D" fill-opacity="0.2"/>
+      <circle cx="0" cy="0" r="3" fill="#F57F17"/>
+      <line x1="0" y1="0" x2="-25" y2="-15" stroke="#657187" stroke-width="0.8"/>
+      <text x="-28" y="-12" font-family="monospace" font-size="6" fill="#657187" text-anchor="end">AGRI BURN // LOW PERSIST</text>
+    </g>
+
+    <!-- Grid Coordinate Stamps -->
+    <text x="12" y="148" font-family="monospace" font-size="6.5" fill="#657187">BOUNDS: [77.20°E, 28.61°N] to [77.50°E, 28.85°N]</text>
+  </g>
+
+  <!-- Right: ML Classifier Pipeline & Risk Breakdown (x=515, y=65) -->
+  <g transform="translate(515, 65)">
+    <rect x="0" y="0" width="320" height="160" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="320" height="2.5" fill="#10233F"/>
+
+    <text x="15" y="18" font-family="monospace" font-size="7.5" fill="#10233F" font-weight="700">CLASSIFIER TELEMETRY &amp; RISK SCORE</text>
+    <line x1="15" y1="24" x2="305" y2="24" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <!-- Classification Matrix Rows -->
+    <g transform="translate(15, 34)">
+      <!-- Row 1 -->
+      <text x="0" y="10" font-family="system-ui, sans-serif" font-size="8.5" fill="#10233F" font-weight="600">Industrial Gas Flare</text>
+      <rect x="150" y="2" width="100" height="10" fill="#F0F2F5" rx="1"/>
+      <rect x="150" y="2" width="88" height="10" fill="#306FE5" rx="1"/>
+      <text x="260" y="10" font-family="monospace" font-size="7" fill="#10233F" font-weight="700">88% CONF</text>
+
+      <!-- Row 2 -->
+      <text x="0" y="28" font-family="system-ui, sans-serif" font-size="8.5" fill="#10233F" font-weight="600">Persistent Facility</text>
+      <rect x="150" y="20" width="100" height="10" fill="#F0F2F5" rx="1"/>
+      <rect x="150" y="20" width="62" height="10" fill="#657187" rx="1"/>
+      <text x="260" y="28" font-family="monospace" font-size="7" fill="#657187">62% CONF</text>
+
+      <!-- Row 3 -->
+      <text x="0" y="46" font-family="system-ui, sans-serif" font-size="8.5" fill="#10233F" font-weight="600">Wildfire / Vegetation</text>
+      <rect x="150" y="38" width="100" height="10" fill="#F0F2F5" rx="1"/>
+      <rect x="150" y="38" width="14" height="10" fill="#D4D9E2" rx="1"/>
+      <text x="260" y="46" font-family="monospace" font-size="7" fill="#657187">14% CONF</text>
+
+      <!-- Metrics Callout Box -->
+      <g transform="translate(0, 62)">
+        <rect x="0" y="0" width="290" height="34" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+        <text x="12" y="14" font-family="monospace" font-size="6.5" fill="#657187">RISK RATING</text>
+        <text x="12" y="26" font-family="system-ui, sans-serif" font-size="9" fill="#D32F2F" font-weight="700">HIGH INDUSTRIAL EMISSION</text>
+        <text x="170" y="14" font-family="monospace" font-size="6.5" fill="#657187">PIPELINE LATENCY</text>
+        <text x="170" y="26" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="700">&lt; 140ms INFERENCE</text>
+      </g>
+    </g>
+
+    <line x1="15" y1="140" x2="305" y2="140" stroke="#D4D9E2" stroke-width="0.6"/>
+    <text x="15" y="152" font-family="monospace" font-size="6.5" fill="#657187">STACK: FASTAPI · PYTORCH · NASA FIRMS API · LEAFLET GIS</text>
+  </g>
+
+  <!-- Bottom Annotation Bar -->
+  <line x1="45" y1="255" x2="835" y2="255" stroke="#D4D9E2" stroke-width="0.8"/>
+  <text x="45" y="268" font-family="monospace" font-size="7" fill="#657187">COSMOS110 // SMART INDIA HACKATHON 2026 // PROTOTYPE SYSTEM</text>
+  <text x="835" y="268" font-family="monospace" font-size="7" fill="#657187" text-anchor="end">SYS.REF: FIRMS-CLF-01</text>
+</svg>

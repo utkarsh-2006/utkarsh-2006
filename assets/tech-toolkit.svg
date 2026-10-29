@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260">
+  <defs>
+    <pattern id="tool-dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.6" fill="#D4D9E2"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="260" fill="#FAF9F6"/>
+  <rect width="880" height="260" fill="url(#tool-dots)"/>
+
+  <g transform="translate(45, 30)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#306FE5" font-weight="700" letter-spacing="3">CAPABILITY MATRIX // TECHNICAL TOOLKIT</text>
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="18" fill="#10233F" font-weight="700" letter-spacing="-0.3">Engineering Stack &amp; Implementation Surface</text>
+    <line x1="0" y1="32" x2="790" y2="32" stroke="#D4D9E2" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(45, 75)">
+    <rect x="0" y="0" width="185" height="155" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="2.5" fill="#306FE5"/>
+
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">MOD.01</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="10.5" fill="#10233F" font-weight="700">AI &amp; PERCEPTION</text>
+    <line x1="12" y1="40" x2="173" y2="40" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <circle cx="15" cy="53" r="1.8" fill="#306FE5"/>
+    <text x="22" y="56" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">PyTorch / Transformers</text>
+    <text x="22" y="65" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Model training &amp; evaluation</text>
+
+    <circle cx="15" cy="77" r="1.8" fill="#306FE5"/>
+    <text x="22" y="80" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Computer Vision</text>
+    <text x="22" y="89" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">YOLOv8, OpenCV, Gemini Vision</text>
+
+    <circle cx="15" cy="101" r="1.8" fill="#306FE5"/>
+    <text x="22" y="104" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Document Intelligence</text>
+    <text x="22" y="113" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Docling, table &amp; text extraction</text>
+
+    <circle cx="15" cy="125" r="1.8" fill="#306FE5"/>
+    <text x="22" y="128" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Scikit-learn</text>
+    <text x="22" y="137" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Spatial-temporal classification</text>
+  </g>
+  <g transform="translate(245, 75)">
+    <rect x="0" y="0" width="185" height="155" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="2.5" fill="#306FE5"/>
+
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">MOD.02</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="10.5" fill="#10233F" font-weight="700">GRAPH &amp; REASONING</text>
+    <line x1="12" y1="40" x2="173" y2="40" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <circle cx="15" cy="53" r="1.8" fill="#306FE5"/>
+    <text x="22" y="56" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Neo4j &amp; Cypher</text>
+    <text x="22" y="65" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Entity-relationship knowledge graphs</text>
+
+    <circle cx="15" cy="77" r="1.8" fill="#306FE5"/>
+    <text x="22" y="80" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Deterministic Solvers</text>
+    <text x="22" y="89" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">NumPy, SciPy geometry checks</text>
+
+    <circle cx="15" cy="101" r="1.8" fill="#306FE5"/>
+    <text x="22" y="104" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Schema Modeling</text>
+    <text x="22" y="113" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Pydantic contract validation</text>
+
+    <circle cx="15" cy="125" r="1.8" fill="#306FE5"/>
+    <text x="22" y="128" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Provenance Systems</text>
+    <text x="22" y="137" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Cited evidence &amp; audit trail</text>
+  </g>
+  <g transform="translate(445, 75)">
+    <rect x="0" y="0" width="185" height="155" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="2.5" fill="#10233F"/>
+
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">MOD.03</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="10.5" fill="#10233F" font-weight="700">BACKEND &amp; DISTRIBUTED</text>
+    <line x1="12" y1="40" x2="173" y2="40" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <circle cx="15" cy="53" r="1.8" fill="#306FE5"/>
+    <text x="22" y="56" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">FastAPI &amp; Python</text>
+    <text x="22" y="65" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">High-throughput asynchronous APIs</text>
+
+    <circle cx="15" cy="77" r="1.8" fill="#306FE5"/>
+    <text x="22" y="80" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Colyseus &amp; Node.js</text>
+    <text x="22" y="89" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Authoritative multiplayer state</text>
+
+    <circle cx="15" cy="101" r="1.8" fill="#306FE5"/>
+    <text x="22" y="104" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Firebase &amp; GCP</text>
+    <text x="22" y="113" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Edge auth, Cloud Functions, rules</text>
+
+    <circle cx="15" cy="125" r="1.8" fill="#306FE5"/>
+    <text x="22" y="128" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Vitest &amp; Playwright</text>
+    <text x="22" y="137" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Deterministic testing &amp; coverage</text>
+  </g>
+  <g transform="translate(645, 75)">
+    <rect x="0" y="0" width="185" height="155" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="2.5" fill="#10233F"/>
+
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">MOD.04</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="10.5" fill="#10233F" font-weight="700">INTERFACE &amp; CLIENT</text>
+    <line x1="12" y1="40" x2="173" y2="40" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <circle cx="15" cy="53" r="1.8" fill="#306FE5"/>
+    <text x="22" y="56" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">Flutter &amp; Dart</text>
+    <text x="22" y="65" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Cross-platform mobile &amp; local KV</text>
+
+    <circle cx="15" cy="77" r="1.8" fill="#306FE5"/>
+    <text x="22" y="80" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">TypeScript &amp; React</text>
+    <text x="22" y="89" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Next.js, Vite admin dashboards</text>
+
+    <circle cx="15" cy="101" r="1.8" fill="#306FE5"/>
+    <text x="22" y="104" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">HTML5 Canvas</text>
+    <text x="22" y="113" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Custom 60 FPS 2D game loops</text>
+
+    <circle cx="15" cy="125" r="1.8" fill="#306FE5"/>
+    <text x="22" y="128" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="600">GIS Dashboards</text>
+    <text x="22" y="137" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Leaflet, spatial coordinate mapping</text>
+  </g>
+  <line x1="45" y1="245" x2="835" y2="245" stroke="#D4D9E2" stroke-width="1"/>
+</svg>

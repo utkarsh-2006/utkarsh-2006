@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" width="420" height="200">
+  <rect width="420" height="200" fill="#FAF9F6"/>
+  <line x1="0" y1="0" x2="420" y2="0" stroke="#10233F" stroke-width="2"/>
+  <rect x="25" y="0" width="40" height="2" fill="#E65100"/>
+
+  <!-- Title Bar -->
+  <text x="25" y="24" font-family="monospace" font-size="7.5" fill="#E65100" font-weight="700">CHICKEN GANG // BROWSER 2D</text>
+  <text x="25" y="38" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">60 FPS Canvas Arcade &amp; AI Simulation</text>
+  <line x1="25" y1="45" x2="395" y2="45" stroke="#D4D9E2" stroke-width="0.6"/>
+
+  <!-- Left: Canvas Physics & AI Patrol Cone -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="170" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    
+    <!-- Arena Bounding Box -->
+    <rect x="15" y="15" width="140" height="90" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+
+    <!-- Hunter / Farmer AI with Vision Cone -->
+    <g transform="translate(45, 60)">
+      <circle cx="0" cy="0" r="5" fill="#D32F2F"/>
+      <!-- Vision Cone -->
+      <polygon points="0,0 60,-25 60,25" fill="#FFCDD2" fill-opacity="0.5" stroke="#D32F2F" stroke-width="0.8" stroke-dasharray="2,2"/>
+      <line x1="0" y1="0" x2="60" y2="0" stroke="#D32F2F" stroke-width="0.8"/>
+    </g>
+
+    <!-- Player Chicken with Bounding Box & Vector -->
+    <g transform="translate(115, 60)">
+      <rect x="-6" y="-6" width="12" height="12" fill="#FFFFFF" stroke="#10233F" stroke-width="1"/>
+      <circle cx="0" cy="0" r="2.5" fill="#10233F"/>
+      <!-- Velocity vector -->
+      <line x1="0" y1="0" x2="15" y2="-10" stroke="#306FE5" stroke-width="1.2"/>
+      <polygon points="15,-10 10,-8 12,-4" fill="#306FE5"/>
+      <text x="0" y="-10" font-family="monospace" font-size="6" fill="#306FE5" font-weight="700">PLAYER</text>
+    </g>
+
+    <text x="85" y="112" font-family="monospace" font-size="6" fill="#657187" text-anchor="middle">AABB COLLISION · RAYCAST VISION</text>
+  </g>
+
+  <!-- Right: Architecture Details -->
+  <g transform="translate(210, 55)">
+    <rect x="0" y="0" width="185" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <text x="12" y="16" font-family="monospace" font-size="6.5" fill="#657187">ENGINE MECHANICS</text>
+
+    <g transform="translate(12, 26)">
+      <text x="0" y="10" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Tick Loop Frequency</text>
+      <text x="135" y="10" font-family="monospace" font-size="6.5" fill="#306FE5">60.0 FPS</text>
+      <line x1="0" y1="14" x2="160" y2="14" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <text x="0" y="28" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">External Dependencies</text>
+      <text x="135" y="28" font-family="monospace" font-size="6.5" fill="#1B7A4A">ZERO (0)</text>
+      <line x1="0" y1="32" x2="160" y2="32" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <text x="0" y="46" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Dynamic Bouncing Particles</text>
+      <text x="135" y="46" font-family="monospace" font-size="6.5" fill="#10233F">PHYSICS</text>
+      <line x1="0" y1="50" x2="160" y2="50" stroke="#D4D9E2" stroke-width="0.5"/>
+    </g>
+
+    <g transform="translate(12, 90)">
+      <rect x="0" y="0" width="160" height="20" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F">VANILLA JS · HTML5 CANVAS · VITE</text>
+    </g>
+  </g>
+</svg>

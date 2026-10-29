@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 350" width="880" height="350">
+  <defs>
+    <pattern id="arch-dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.6" fill="#D4D9E2"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="350" fill="#FAF9F6"/>
+  <rect width="880" height="350" fill="url(#arch-dots)"/>
+
+  <g transform="translate(45, 30)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#306FE5" font-weight="700" letter-spacing="3">SYSTEM PARADIGM // NARRATIVE PIPELINE</text>
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="18" fill="#10233F" font-weight="700" letter-spacing="-0.3">From Fragmented Artifacts to Auditable Truth</text>
+    <line x1="0" y1="32" x2="790" y2="32" stroke="#D4D9E2" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(45, 75)">
+    <rect x="0" y="0" width="185" height="240" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="3" fill="#10233F"/>
+    
+    <text x="14" y="24" font-family="monospace" font-size="9" fill="#10233F" font-weight="700" letter-spacing="1.5">01 // UNDERSTAND</text>
+    <text x="14" y="40" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Multimodal Extraction</text>
+    
+    <rect x="14" y="48" width="81.6" height="14" fill="#F0F2F5" rx="1"/>
+    <text x="20" y="58" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="600" letter-spacing="0.5">AI INGESTION</text>
+
+    <!-- Custom Stage Micro-Diagram -->
+    <g transform="translate(14, 72)">
+      <rect x="0" y="0" width="157" height="55" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+
+        <rect x="15" y="10" width="22" height="32" fill="#FFFFFF" stroke="#10233F" stroke-width="1"/>
+        <line x1="20" y1="18" x2="31" y2="18" stroke="#657187" stroke-width="1"/>
+        <line x1="20" y1="24" x2="31" y2="24" stroke="#657187" stroke-width="1"/>
+        <line x1="20" y1="30" x2="27" y2="30" stroke="#657187" stroke-width="1"/>
+        
+        <line x1="45" y1="25" x2="70" y2="25" stroke="#306FE5" stroke-width="1.2" stroke-dasharray="2,2"/>
+        <polygon points="70,25 65,22 65,28" fill="#306FE5"/>
+        
+        <circle cx="95" cy="18" r="3" fill="#10233F"/>
+        <circle cx="115" cy="30" r="3" fill="#306FE5"/>
+        <circle cx="95" cy="38" r="2.5" fill="#657187"/>
+        <line x1="95" y1="18" x2="115" y2="30" stroke="#D4D9E2" stroke-width="1"/>
+        <line x1="95" y1="38" x2="115" y2="30" stroke="#D4D9E2" stroke-width="1"/>
+
+    </g>
+
+    <!-- Narrative Description Text -->
+    <text x="14" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#10233F">
+      <tspan x="14" dy="0">Drawings (PDF/CAD), BIM/IFC models,</tspan>
+      <tspan x="14" dy="13">contracts, and codes parsed in native</tspan>
+      <tspan x="14" dy="13">formats. AI vision &amp; OCR extract entities,</tspan>
+      <tspan x="14" dy="13">geometry and structured tables.</tspan>
+    </text>
+
+    <line x1="14" y1="210" x2="171" y2="210" stroke="#D4D9E2" stroke-width="0.6"/>
+    <text x="14" y="226" font-family="monospace" font-size="7.5" fill="#657187">Vision / OCR / Docling</text>
+  </g>
+
+  <g transform="translate(233, 190)">
+    <line x1="0" y1="0" x2="8" y2="0" stroke="#306FE5" stroke-width="1.5"/>
+    <polygon points="8,0 4,-3 4,3" fill="#306FE5"/>
+  </g>
+  <g transform="translate(245, 75)">
+    <rect x="0" y="0" width="185" height="240" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="3" fill="#306FE5"/>
+    
+    <text x="14" y="24" font-family="monospace" font-size="9" fill="#306FE5" font-weight="700" letter-spacing="1.5">02 // CONNECT</text>
+    <text x="14" y="40" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Unified Knowledge Graph</text>
+    
+    <rect x="14" y="48" width="110.6" height="14" fill="#EBF2FC" rx="1"/>
+    <text x="20" y="58" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="600" letter-spacing="0.5">GRAPH STRUCTURING</text>
+
+    <!-- Custom Stage Micro-Diagram -->
+    <g transform="translate(14, 72)">
+      <rect x="0" y="0" width="157" height="55" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+
+        <circle cx="35" cy="28" r="4.5" fill="#10233F"/>
+        <circle cx="75" cy="15" r="4" fill="#306FE5"/>
+        <circle cx="80" cy="40" r="4" fill="#10233F"/>
+        <circle cx="120" cy="26" r="4" fill="#306FE5"/>
+        
+        <line x1="35" y1="28" x2="75" y2="15" stroke="#10233F" stroke-width="1.2"/>
+        <line x1="35" y1="28" x2="80" y2="40" stroke="#306FE5" stroke-width="1.2"/>
+        <line x1="75" y1="15" x2="120" y2="26" stroke="#D4D9E2" stroke-width="1"/>
+        <line x1="80" y1="40" x2="120" y2="26" stroke="#10233F" stroke-width="1.2"/>
+        <line x1="75" y1="15" x2="80" y2="40" stroke="#306FE5" stroke-width="1" stroke-dasharray="2,2"/>
+
+    </g>
+
+    <!-- Narrative Description Text -->
+    <text x="14" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#10233F">
+      <tspan x="14" dy="0">Resolves cross-document entities</tspan>
+      <tspan x="14" dy="13">across disciplines. Converts isolated</tspan>
+      <tspan x="14" dy="13">records into a queryable graph of</tspan>
+      <tspan x="14" dy="13">spatial relations &amp; cited evidence.</tspan>
+    </text>
+
+    <line x1="14" y1="210" x2="171" y2="210" stroke="#D4D9E2" stroke-width="0.6"/>
+    <text x="14" y="226" font-family="monospace" font-size="7.5" fill="#657187">Property Graph / Neo4j</text>
+  </g>
+
+  <g transform="translate(433, 190)">
+    <line x1="0" y1="0" x2="8" y2="0" stroke="#306FE5" stroke-width="1.5"/>
+    <polygon points="8,0 4,-3 4,3" fill="#306FE5"/>
+  </g>
+  <g transform="translate(445, 75)">
+    <rect x="0" y="0" width="185" height="240" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="3" fill="#10233F"/>
+    
+    <text x="14" y="24" font-family="monospace" font-size="9" fill="#10233F" font-weight="700" letter-spacing="1.5">03 // REASON</text>
+    <text x="14" y="40" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Deterministic Verification</text>
+    
+    <rect x="14" y="48" width="93.2" height="14" fill="#F0F2F5" rx="1"/>
+    <text x="20" y="58" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="600" letter-spacing="0.5">HYBRID SOLVERS</text>
+
+    <!-- Custom Stage Micro-Diagram -->
+    <g transform="translate(14, 72)">
+      <rect x="0" y="0" width="157" height="55" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+
+        <polygon points="25,38 75,38 75,14 25,14" fill="none" stroke="#10233F" stroke-width="1"/>
+        <polygon points="45,46 95,46 95,22 45,22" fill="#EBF2FC" fill-opacity="0.4" stroke="#306FE5" stroke-width="1"/>
+        <rect x="45" y="22" width="30" height="16" fill="none" stroke="#306FE5" stroke-width="1.2" stroke-dasharray="1.5,1.5"/>
+        <text x="105" y="32" font-family="monospace" font-size="7" fill="#10233F" font-weight="700">CLASH!</text>
+        <line x1="95" y1="30" x2="103" y2="30" stroke="#10233F" stroke-width="0.8"/>
+
+    </g>
+
+    <!-- Narrative Description Text -->
+    <text x="14" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#10233F">
+      <tspan x="14" dy="0">Revisions traverse dependency edges.</tspan>
+      <tspan x="14" dy="13">Deterministic geometric solvers &amp;</tspan>
+      <tspan x="14" dy="13">rule engines test impacted code</tspan>
+      <tspan x="14" dy="13">requirements and spatial boundaries.</tspan>
+    </text>
+
+    <line x1="14" y1="210" x2="171" y2="210" stroke="#D4D9E2" stroke-width="0.6"/>
+    <text x="14" y="226" font-family="monospace" font-size="7.5" fill="#657187">NumPy / SciPy / Solvers</text>
+  </g>
+
+  <g transform="translate(633, 190)">
+    <line x1="0" y1="0" x2="8" y2="0" stroke="#306FE5" stroke-width="1.5"/>
+    <polygon points="8,0 4,-3 4,3" fill="#306FE5"/>
+  </g>
+  <g transform="translate(645, 75)">
+    <rect x="0" y="0" width="185" height="240" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="185" height="3" fill="#306FE5"/>
+    
+    <text x="14" y="24" font-family="monospace" font-size="9" fill="#306FE5" font-weight="700" letter-spacing="1.5">04 // DECIDE</text>
+    <text x="14" y="40" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Qualified Human Authority</text>
+    
+    <rect x="14" y="48" width="104.8" height="14" fill="#EBF2FC" rx="1"/>
+    <text x="20" y="58" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="600" letter-spacing="0.5">PROVENANCE AUDIT</text>
+
+    <!-- Custom Stage Micro-Diagram -->
+    <g transform="translate(14, 72)">
+      <rect x="0" y="0" width="157" height="55" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+
+        <rect x="18" y="10" width="115" height="35" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+        <rect x="24" y="16" width="35" height="6" fill="#EBF2FC"/>
+        <rect x="24" y="25" width="55" height="4" fill="#F0F2F5"/>
+        <rect x="24" y="32" width="40" height="4" fill="#F0F2F5"/>
+        <circle cx="112" cy="27" r="10" fill="none" stroke="#306FE5" stroke-width="1.2"/>
+        <path d="M 108 27 L 111 30 L 117 23" fill="none" stroke="#306FE5" stroke-width="1.5"/>
+
+    </g>
+
+    <!-- Narrative Description Text -->
+    <text x="14" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#10233F">
+      <tspan x="14" dy="0">Flags delivered with full source</tspan>
+      <tspan x="14" dy="13">citations, geometric proof &amp; rationale.</tspan>
+      <tspan x="14" dy="13">Engineers confirm or reject findings;</tspan>
+      <tspan x="14" dy="13">actions trigger recursive reanalysis.</tspan>
+    </text>
+
+    <line x1="14" y1="210" x2="171" y2="210" stroke="#D4D9E2" stroke-width="0.6"/>
+    <text x="14" y="226" font-family="monospace" font-size="7.5" fill="#657187">Review UI / Three.js</text>
+  </g>
+
+  <line x1="45" y1="335" x2="835" y2="335" stroke="#D4D9E2" stroke-width="1"/>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340">
+  <defs>
+    <pattern id="const-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D4D9E2" stroke-width="0.4" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="340" fill="#FAF9F6"/>
+  <rect width="880" height="340" fill="url(#const-grid)"/>
+
+  <g transform="translate(45, 30)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="9" fill="#306FE5" font-weight="700" letter-spacing="3">TAXONOMY // PROJECT LANDSCAPE</text>
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="18" fill="#10233F" font-weight="700" letter-spacing="-0.3">Systems Grouped by Domain &amp; Verification Maturity</text>
+    <line x1="0" y1="32" x2="790" y2="32" stroke="#D4D9E2" stroke-width="1"/>
+  </g>
+
+  <!-- Band 1: Spatial & AEC Intelligence -->
+  <g transform="translate(45, 80)">
+    <rect x="0" y="0" width="250" height="210" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="250" height="3" fill="#306FE5"/>
+    
+    <text x="16" y="24" font-family="monospace" font-size="8.5" fill="#306FE5" font-weight="700" letter-spacing="1">DOM.01 // REASONING &amp; AEC</text>
+    <text x="16" y="42" font-family="system-ui, sans-serif" font-size="13" fill="#10233F" font-weight="700">Built Environment &amp; Spatial</text>
+    <text x="16" y="56" font-family="system-ui, sans-serif" font-size="8.5" fill="#657187">Cross-record validation &amp; semantic parsing</text>
+    <line x1="16" y1="68" x2="234" y2="68" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(16, 82)">
+      <circle cx="4" cy="5" r="3" fill="#306FE5"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">AERES 2.0</text>
+      <rect x="80" y="0" width="95" height="12" fill="#F0F2F5" rx="1"/>
+      <text x="127" y="9" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">CONCEPT / RESEARCH</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">Architectural engineering reasoning engine.</text>
+    </g>
+
+    <g transform="translate(16, 128)">
+      <circle cx="4" cy="5" r="3" fill="#657187"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">A2UP</text>
+      <rect x="55" y="0" width="105" height="12" fill="#F0F2F5" rx="1"/>
+      <text x="107" y="9" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">CONCEPT / SPECIFICATION</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">Infrared sensor interpretation platform.</text>
+    </g>
+  </g>
+
+  <!-- Band 2: Vision & Environmental Intelligence -->
+  <g transform="translate(315, 80)">
+    <rect x="0" y="0" width="250" height="210" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="250" height="3" fill="#10233F"/>
+    
+    <text x="16" y="24" font-family="monospace" font-size="8.5" fill="#10233F" font-weight="700" letter-spacing="1">DOM.02 // SENSOR &amp; VISION</text>
+    <text x="16" y="42" font-family="system-ui, sans-serif" font-size="13" fill="#10233F" font-weight="700">Geospatial &amp; Edge Vision</text>
+    <text x="16" y="56" font-family="system-ui, sans-serif" font-size="8.5" fill="#657187">Thermal modeling &amp; material classification</text>
+    <line x1="16" y1="68" x2="234" y2="68" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(16, 82)">
+      <circle cx="4" cy="5" r="3" fill="#306FE5"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">COSMOS110</text>
+      <rect x="88" y="0" width="85" height="12" fill="#EBF2FC" rx="1"/>
+      <text x="130" y="9" font-family="monospace" font-size="6.5" fill="#306FE5" text-anchor="middle" font-weight="600">PROTOTYPE / POC</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">NASA FIRMS thermal source classifier (SIH).</text>
+    </g>
+
+    <g transform="translate(16, 128)">
+      <circle cx="4" cy="5" r="3" fill="#306FE5"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">MicroD</text>
+      <rect x="65" y="0" width="100" height="12" fill="#EBF2FC" rx="1"/>
+      <text x="115" y="9" font-family="monospace" font-size="6.5" fill="#306FE5" text-anchor="middle" font-weight="600">ACTIVE DEV (POC)</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">20-class municipal waste classification.</text>
+    </g>
+  </g>
+
+  <!-- Band 3: Distributed Engines & Offline Utilities -->
+  <g transform="translate(585, 80)">
+    <rect x="0" y="0" width="250" height="210" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="250" height="3" fill="#1B7A4A"/>
+    
+    <text x="16" y="24" font-family="monospace" font-size="8.5" fill="#1B7A4A" font-weight="700" letter-spacing="1">DOM.03 // SYSTEMS &amp; SIMULATION</text>
+    <text x="16" y="42" font-family="system-ui, sans-serif" font-size="13" fill="#10233F" font-weight="700">Multiplayer &amp; Offline Tools</text>
+    <text x="16" y="56" font-family="system-ui, sans-serif" font-size="8.5" fill="#657187">Deterministic state engines &amp; local apps</text>
+    <line x1="16" y1="68" x2="234" y2="68" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(16, 82)">
+      <circle cx="4" cy="5" r="3" fill="#1B7A4A"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">The Daily Ledger</text>
+      <rect x="110" y="0" width="85" height="12" fill="#E8F5E9" rx="1"/>
+      <text x="152" y="9" font-family="monospace" font-size="6.5" fill="#1B7A4A" text-anchor="middle" font-weight="600">ACTIVE DEV</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">Real-time financial board multiplayer engine.</text>
+    </g>
+
+    <g transform="translate(16, 128)">
+      <circle cx="4" cy="5" r="3" fill="#1B7A4A"/>
+      <text x="14" y="8" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">NoteThread</text>
+      <rect x="85" y="0" width="75" height="12" fill="#E8F5E9" rx="1"/>
+      <text x="122" y="9" font-family="monospace" font-size="6.5" fill="#1B7A4A" text-anchor="middle" font-weight="600">IMPLEMENTED</text>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-size="8" fill="#657187">Offline-first personal note and task app.</text>
+    </g>
+  </g>
+
+  <path d="M 295 180 L 315 180" stroke="#306FE5" stroke-width="1.2" stroke-dasharray="2,2"/>
+  <path d="M 565 180 L 585 180" stroke="#D4D9E2" stroke-width="1.2" stroke-dasharray="2,2"/>
+  <line x1="45" y1="325" x2="835" y2="325" stroke="#D4D9E2" stroke-width="1"/>
+</svg>

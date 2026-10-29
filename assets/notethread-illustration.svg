@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" width="420" height="200">
+  <rect width="420" height="200" fill="#FAF9F6"/>
+  <line x1="0" y1="0" x2="420" y2="0" stroke="#10233F" stroke-width="2"/>
+  <rect x="25" y="0" width="40" height="2" fill="#1B7A4A"/>
+
+  <!-- Title Bar -->
+  <text x="25" y="24" font-family="monospace" font-size="7.5" fill="#1B7A4A" font-weight="700">NOTETHREAD // OFFLINE WORKSPACE</text>
+  <text x="25" y="38" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">Zero-Telemetry Local Vault &amp; Task Engine</text>
+  <line x1="25" y1="45" x2="395" y2="45" stroke="#D4D9E2" stroke-width="0.6"/>
+
+  <!-- Left: Sandboxed Device Disk (Local KV Storage) -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="170" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    
+    <!-- Vault / Hard Disk Graphic -->
+    <g transform="translate(85, 45)">
+      <rect x="-35" y="-25" width="70" height="50" rx="4" fill="#FAF9F6" stroke="#10233F" stroke-width="1.2"/>
+      <!-- Keyhole / Security Padlock -->
+      <circle cx="0" cy="-2" r="7" fill="#10233F"/>
+      <path d="M -5 -2 C -5 -9, 5 -9, 5 -2" fill="none" stroke="#10233F" stroke-width="2"/>
+      <circle cx="0" cy="-2" r="2" fill="#FFFFFF"/>
+      <rect x="-1" y="-1" width="2" height="4" fill="#FFFFFF"/>
+
+      <!-- Local DB indicator -->
+      <text x="0" y="36" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700" text-anchor="middle">HIVE ENCRYPTED BOX</text>
+      <text x="0" y="46" font-family="monospace" font-size="6" fill="#657187" text-anchor="middle">AES-256 / PBKDF2</text>
+    </g>
+
+    <text x="85" y="112" font-family="monospace" font-size="6" fill="#657187" text-anchor="middle">NO CLOUD · NO TELEMETRY</text>
+  </g>
+
+  <!-- Right: Note & Task Representation -->
+  <g transform="translate(210, 55)">
+    <rect x="0" y="0" width="185" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <text x="12" y="16" font-family="monospace" font-size="6.5" fill="#657187">LOCAL DATA MODEL</text>
+
+    <!-- Task & Note checklist items -->
+    <g transform="translate(12, 26)">
+      <!-- Item 1 -->
+      <rect x="0" y="2" width="10" height="10" fill="#E8F5E9" stroke="#1B7A4A" stroke-width="1"/>
+      <path d="M 2 7 L 5 9 L 8 4" fill="none" stroke="#1B7A4A" stroke-width="1.2"/>
+      <text x="16" y="10" font-family="system-ui, sans-serif" font-size="8" fill="#10233F">Offline note autosave</text>
+      <line x1="0" y1="16" x2="160" y2="16" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Item 2 -->
+      <rect x="0" y="22" width="10" height="10" fill="#E8F5E9" stroke="#1B7A4A" stroke-width="1"/>
+      <path d="M 2 27 L 5 29 L 8 24" fill="none" stroke="#1B7A4A" stroke-width="1.2"/>
+      <text x="16" y="30" font-family="system-ui, sans-serif" font-size="8" fill="#10233F">Task priority state indexing</text>
+      <line x1="0" y1="36" x2="160" y2="36" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Item 3 -->
+      <rect x="0" y="42" width="10" height="10" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="1"/>
+      <text x="16" y="50" font-family="system-ui, sans-serif" font-size="8" fill="#10233F">Encrypted backup archive</text>
+      <line x1="0" y1="56" x2="160" y2="56" stroke="#D4D9E2" stroke-width="0.5"/>
+    </g>
+
+    <g transform="translate(12, 90)">
+      <rect x="0" y="0" width="160" height="20" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F">DART · FLUTTER · HIVE · PROVIDER</text>
+    </g>
+  </g>
+</svg>

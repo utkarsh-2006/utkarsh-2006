@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" width="420" height="200">
+  <rect width="420" height="200" fill="#FAF9F6"/>
+  <line x1="0" y1="0" x2="420" y2="0" stroke="#10233F" stroke-width="2"/>
+  <rect x="25" y="0" width="40" height="2" fill="#306FE5"/>
+
+  <!-- Title Bar -->
+  <text x="25" y="24" font-family="monospace" font-size="7.5" fill="#306FE5" font-weight="700">MICROD // EDGE VISION</text>
+  <text x="25" y="38" font-family="system-ui, sans-serif" font-size="12" fill="#10233F" font-weight="700">20-Class Waste Taxonomy &amp; Condition Matrix</text>
+  <line x1="25" y1="45" x2="395" y2="45" stroke="#D4D9E2" stroke-width="0.6"/>
+
+  <!-- Left: Bounding Box Detection Viewfinder -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="170" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    
+    <!-- Viewfinder Reticles -->
+    <path d="M 20 30 L 10 30 L 10 40" fill="none" stroke="#D4D9E2" stroke-width="1.2"/>
+    <path d="M 150 30 L 160 30 L 160 40" fill="none" stroke="#D4D9E2" stroke-width="1.2"/>
+    <path d="M 20 100 L 10 100 L 10 90" fill="none" stroke="#D4D9E2" stroke-width="1.2"/>
+    <path d="M 150 100 L 160 100 L 160 90" fill="none" stroke="#D4D9E2" stroke-width="1.2"/>
+
+    <!-- Detected Object: Plastic Bottle Geometry with Bounding Box -->
+    <rect x="45" y="32" width="80" height="66" fill="#EBF2FC" fill-opacity="0.3" stroke="#306FE5" stroke-width="1.2"/>
+    <rect x="45" y="22" width="70" height="10" fill="#306FE5"/>
+    <text x="48" y="30" font-family="monospace" font-size="6" fill="#FFFFFF" font-weight="700">PET-01 // 94% CONF</text>
+    
+    <!-- Bottle silhouette sketch -->
+    <rect x="75" y="38" width="20" height="50" rx="3" fill="none" stroke="#10233F" stroke-width="1"/>
+    <rect x="80" y="34" width="10" height="5" fill="none" stroke="#10233F" stroke-width="0.8"/>
+
+    <text x="85" y="112" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">CAMERA INFERENCE STREAM</text>
+  </g>
+
+  <!-- Right: Polymer Taxonomy Breakdown -->
+  <g transform="translate(210, 55)">
+    <rect x="0" y="0" width="185" height="120" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <text x="12" y="16" font-family="monospace" font-size="6.5" fill="#657187">TAXONOMY VERSION: v1.0.0</text>
+
+    <!-- Table of Polymers -->
+    <g transform="translate(12, 26)">
+      <!-- PET -->
+      <text x="0" y="10" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Polyethylene Terephthalate</text>
+      <text x="125" y="10" font-family="monospace" font-size="7" fill="#306FE5" font-weight="700">RECYCLABLE</text>
+      <line x1="0" y1="14" x2="160" y2="14" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- HDPE -->
+      <text x="0" y="28" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">High-Density PE</text>
+      <text x="125" y="28" font-family="monospace" font-size="7" fill="#306FE5" font-weight="700">RECYCLABLE</text>
+      <line x1="0" y1="32" x2="160" y2="32" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Mixed / Multi-layer -->
+      <text x="0" y="46" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">Multi-Layer Laminate</text>
+      <text x="125" y="46" font-family="monospace" font-size="7" fill="#F57C00" font-weight="700">LANDFILL</text>
+      <line x1="0" y1="50" x2="160" y2="50" stroke="#D4D9E2" stroke-width="0.5"/>
+    </g>
+
+    <g transform="translate(12, 90)">
+      <rect x="0" y="0" width="160" height="20" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F">FLUTTER · FASTAPI · GENAI POC</text>
+    </g>
+  </g>
+</svg>

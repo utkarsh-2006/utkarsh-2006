@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300">
+  <defs>
+    <pattern id="sys-dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.6" fill="#D4D9E2"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="300" fill="#FAF9F6"/>
+  <rect width="880" height="300" fill="url(#sys-dots)"/>
+
+  <!-- Top Title -->
+  <g transform="translate(45, 24)">
+    <text x="0" y="0" font-family="monospace" font-size="8" fill="#306FE5" letter-spacing="2" font-weight="700">DISTRIBUTED ARCHITECTURE // SYSTEM BOUNDARIES</text>
+    <text x="0" y="16" font-family="system-ui, sans-serif" font-size="14" fill="#10233F" font-weight="700">Layered Execution: Edge Clients, Deterministic Services, and State Stores</text>
+    <line x1="0" y1="26" x2="790" y2="26" stroke="#D4D9E2" stroke-width="0.8"/>
+  </g>
+
+  <!-- 4 Architectural Tiers (Horizontal Stacking) -->
+  <!-- Tier 1: Clients & Applications (x=45, y=65) -->
+  <g transform="translate(45, 65)">
+    <rect x="0" y="0" width="170" height="175" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="170" height="3" fill="#10233F"/>
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187">TIER 01</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">CLIENTS &amp; UI</text>
+    <line x1="12" y1="38" x2="158" y2="38" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="15" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Flutter Mobile Apps</text>
+
+      <rect x="0" y="30" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="45" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Next.js / Vite Dashboards</text>
+
+      <rect x="0" y="60" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="75" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">HTML5 Canvas Engines</text>
+
+      <rect x="0" y="90" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="105" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">GIS / Leaflet Portals</text>
+    </g>
+  </g>
+
+  <!-- Connection Arrows Tier 1 -> Tier 2 -->
+  <g transform="translate(220, 150)">
+    <line x1="0" y1="0" x2="15" y2="0" stroke="#306FE5" stroke-width="1.2"/>
+    <polygon points="15,0 10,-3 10,3" fill="#306FE5"/>
+    <text x="7.5" y="-6" font-family="monospace" font-size="6" fill="#306FE5" text-anchor="middle">REST / WS</text>
+  </g>
+
+  <!-- Tier 2: API Gateway & Service Ingestion (x=245, y=65) -->
+  <g transform="translate(245, 65)">
+    <rect x="0" y="0" width="170" height="175" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="170" height="3" fill="#306FE5"/>
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187">TIER 02</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">API &amp; ROUTING</text>
+    <line x1="12" y1="38" x2="158" y2="38" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="15" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">FastAPI Asynchronous Gateway</text>
+
+      <rect x="0" y="30" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="45" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Pydantic Contract Validation</text>
+
+      <rect x="0" y="60" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="75" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Colyseus State Synchronizer</text>
+
+      <rect x="0" y="90" width="146" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="105" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Firebase Edge Security Rules</text>
+    </g>
+  </g>
+
+  <!-- Connection Arrows Tier 2 -> Tier 3 -->
+  <g transform="translate(420, 150)">
+    <line x1="0" y1="0" x2="15" y2="0" stroke="#306FE5" stroke-width="1.2"/>
+    <polygon points="15,0 10,-3 10,3" fill="#306FE5"/>
+    <text x="7.5" y="-6" font-family="monospace" font-size="6" fill="#306FE5" text-anchor="middle">DISPATCH</text>
+  </g>
+
+  <!-- Tier 3: Compute & Inference Engines (x=445, y=65) -->
+  <g transform="translate(445, 65)">
+    <rect x="0" y="0" width="180" height="175" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="180" height="3" fill="#10233F"/>
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187">TIER 03</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">COMPUTE &amp; REASONING</text>
+    <line x1="12" y1="38" x2="168" y2="38" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="156" height="24" fill="#EBF2FC" stroke="#306FE5" stroke-width="0.8"/>
+      <text x="8" y="15" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="700">PyTorch / YOLOv8 Inference</text>
+
+      <rect x="0" y="30" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="45" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">NumPy / SciPy Solvers</text>
+
+      <rect x="0" y="60" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="75" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Docling Parser &amp; OCR Engine</text>
+
+      <rect x="0" y="90" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="105" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Deterministic State Machines</text>
+    </g>
+  </g>
+
+  <!-- Connection Arrows Tier 3 -> Tier 4 -->
+  <g transform="translate(630, 150)">
+    <line x1="0" y1="0" x2="15" y2="0" stroke="#306FE5" stroke-width="1.2"/>
+    <polygon points="15,0 10,-3 10,3" fill="#306FE5"/>
+    <text x="7.5" y="-6" font-family="monospace" font-size="6" fill="#306FE5" text-anchor="middle">SYNC</text>
+  </g>
+
+  <!-- Tier 4: Knowledge Graph & Persistence (x=655, y=65) -->
+  <g transform="translate(655, 65)">
+    <rect x="0" y="0" width="180" height="175" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="1"/>
+    <rect x="0" y="0" width="180" height="3" fill="#306FE5"/>
+    <text x="12" y="18" font-family="monospace" font-size="7" fill="#657187">TIER 04</text>
+    <text x="12" y="32" font-family="system-ui, sans-serif" font-size="11" fill="#10233F" font-weight="700">PERSISTENCE &amp; GRAPH</text>
+    <line x1="12" y1="38" x2="168" y2="38" stroke="#D4D9E2" stroke-width="0.6"/>
+
+    <g transform="translate(12, 48)">
+      <rect x="0" y="0" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="15" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Neo4j Entity Property Graph</text>
+
+      <rect x="0" y="30" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="45" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">PostgreSQL / Cloud Firestore</text>
+
+      <rect x="0" y="60" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="75" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Hive Local Key-Value Store</text>
+
+      <rect x="0" y="90" width="156" height="24" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <text x="8" y="105" font-family="system-ui, sans-serif" font-size="8" fill="#10233F" font-weight="600">Audit Dossier &amp; Provenance Log</text>
+    </g>
+  </g>
+
+  <!-- Bottom Details -->
+  <line x1="45" y1="275" x2="835" y2="275" stroke="#D4D9E2" stroke-width="0.8"/>
+  <text x="45" y="288" font-family="monospace" font-size="7" fill="#657187">SYSTEMS ENGINEERING // INTEGRATION PATTERNS ACROSS PRODUCTION &amp; RESEARCH REPOSITORIES</text>
+  <text x="835" y="288" font-family="monospace" font-size="7" fill="#657187" text-anchor="end">SYS.REF: ARCH-MAP-2026</text>
+</svg>

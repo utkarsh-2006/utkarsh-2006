@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 80" width="880" height="80">
+  <defs>
+    <pattern id="sig-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#D4D9E2" stroke-width="0.3" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="80" fill="#FAF9F6"/>
+  <rect width="880" height="80" fill="url(#sig-grid)"/>
+
+  <!-- Blueprint Perimeter Line with Registration Crosshairs -->
+  <line x1="25" y1="40" x2="855" y2="40" stroke="#D4D9E2" stroke-width="0.8"/>
+  
+  <!-- Center Datum Marker -->
+  <g transform="translate(440, 40)">
+    <circle cx="0" cy="0" r="14" fill="#FFFFFF" stroke="#10233F" stroke-width="1"/>
+    <circle cx="0" cy="0" r="4" fill="#306FE5"/>
+    
+    <!-- Quadrant crosshairs -->
+    <line x1="-20" y1="0" x2="-14" y2="0" stroke="#306FE5" stroke-width="1.5"/>
+    <line x1="14" y1="0" x2="20" y2="0" stroke="#306FE5" stroke-width="1.5"/>
+    <line x1="0" y1="-20" x2="0" y2="-14" stroke="#306FE5" stroke-width="1.5"/>
+    <line x1="0" y1="14" x2="0" y2="20" stroke="#306FE5" stroke-width="1.5"/>
+
+    <text x="0" y="28" font-family="monospace" font-size="7" fill="#657187" text-anchor="middle" letter-spacing="2">ARCHITECTURAL COMPUTATIONAL STUDIO // DATUM-01</text>
+  </g>
+
+  <!-- Left & Right Technical Coordinates -->
+  <text x="35" y="44" font-family="monospace" font-size="7" fill="#657187">LAT: 13.0827°N // LON: 80.2707°E</text>
+  <text x="845" y="44" font-family="monospace" font-size="7" fill="#657187" text-anchor="end">SYS.REV: 2026.A // END-OF-SPEC</text>
+</svg>

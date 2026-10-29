@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400">
+  <defs>
+    <pattern id="aeres-subtle-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D4D9E2" stroke-width="0.3" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="400" fill="#FAF9F6"/>
+  <rect width="880" height="400" fill="url(#aeres-subtle-grid)"/>
+
+  <!-- Perimeter Border & Registration Crosshairs -->
+  <rect x="25" y="20" width="830" height="360" fill="none" stroke="#D4D9E2" stroke-width="0.8"/>
+  <g stroke="#657187" stroke-width="0.6" opacity="0.7">
+    <line x1="20" y1="20" x2="30" y2="20"/>
+    <line x1="25" y1="15" x2="25" y2="25"/>
+    <line x1="850" y1="20" x2="860" y2="20"/>
+    <line x1="855" y1="15" x2="855" y2="25"/>
+    <line x1="20" y1="380" x2="30" y2="380"/>
+    <line x1="25" y1="375" x2="25" y2="385"/>
+    <line x1="850" y1="380" x2="860" y2="380"/>
+    <line x1="855" y1="375" x2="855" y2="385"/>
+  </g>
+
+  <!-- Title Bar -->
+  <line x1="25" y1="44" x2="855" y2="44" stroke="#D4D9E2" stroke-width="0.8"/>
+  <text x="35" y="35" font-family="monospace" font-size="7.5" fill="#306FE5" font-weight="700" letter-spacing="1.5">AERES CONCEPT DEMONSTRATOR // THE DISCONNECTED RECORDS PROBLEM</text>
+  <text x="845" y="35" font-family="monospace" font-size="7" fill="#657187" text-anchor="end">ONE CHANGE · MULTIPLE CONSEQUENCES · UNIFIED REVIEW GAP</text>
+
+  <!-- =================================================================== -->
+  <!-- UPPER SECTION: THE BUILDING & ITS DIVERGENT REPRESENTATIONS (y=55..215) -->
+  <!-- =================================================================== -->
+  <g transform="translate(35, 55)">
+    <!-- Container Box -->
+    <rect x="0" y="0" width="810" height="155" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+    
+    <!-- Sub-header -->
+    <text x="14" y="18" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">PRIMARY REPRESENTATIONS // SAME BUILDING, SEPARATE TOOLS</text>
+    <line x1="14" y1="24" x2="796" y2="24" stroke="#D4D9E2" stroke-width="0.5"/>
+
+    <!-- Left: Architectural BIM / CAD Elevation View (x=30, y=32) -->
+    <g transform="translate(30, 32)">
+      <!-- Building Elevation Outline -->
+      <rect x="0" y="55" width="230" height="45" fill="none" stroke="#10233F" stroke-width="1.2"/>
+      <rect x="40" y="15" width="160" height="40" fill="none" stroke="#10233F" stroke-width="1.2"/>
+      
+      <!-- Upper windows (ribbon) -->
+      <rect x="50" y="23" width="30" height="24" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+      <rect x="85" y="23" width="30" height="24" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+      <rect x="120" y="23" width="30" height="24" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+      <rect x="155" y="23" width="35" height="24" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+
+      <!-- Lower facade windows -->
+      <rect x="15" y="62" width="45" height="38" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+      <rect x="65" y="62" width="45" height="38" fill="#EBF2FC" stroke="#10233F" stroke-width="0.8"/>
+      <rect x="115" y="62" width="25" height="38" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+
+      <!-- Structural Column C-4 Highlight on Elevation -->
+      <rect x="155" y="62" width="10" height="38" fill="#306FE5"/>
+      <rect x="170" y="70" width="36" height="16" fill="#FFFFFF" stroke="#306FE5" stroke-width="1.2"/>
+      <text x="188" y="81" font-family="monospace" font-size="7.5" fill="#306FE5" font-weight="700" text-anchor="middle">C-4</text>
+      <line x1="165" y1="78" x2="170" y2="78" stroke="#306FE5" stroke-width="1.2"/>
+
+      <!-- Context: tree sketch -->
+      <ellipse cx="-15" cy="78" rx="8" ry="16" fill="none" stroke="#D4D9E2" stroke-width="0.8"/>
+      <line x1="-15" y1="94" x2="-15" y2="100" stroke="#D4D9E2" stroke-width="0.8"/>
+
+      <!-- Revision Tag & Label -->
+      <rect x="160" y="105" width="45" height="14" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="182.5" y="115" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">Rev D</text>
+      <text x="0" y="115" font-family="system-ui, sans-serif" font-size="8.5" fill="#10233F" font-weight="700">2. BIM / CAD Model</text>
+    </g>
+
+    <!-- Center Connecting Narrative Ray (The Missing Automated Link) -->
+    <g transform="translate(305, 32)">
+      <!-- Blue dashed bridge linking C-4 Elevation to C-4 Plan -->
+      <path d="M 0 78 L 85 78" stroke="#306FE5" stroke-width="1.5" stroke-dasharray="3,3"/>
+      
+      <!-- Mystery / Disconnect Icon Circle -->
+      <circle cx="42" cy="78" r="9" fill="#FFFFFF" stroke="#306FE5" stroke-width="1.2"/>
+      <text x="42" y="81.5" font-family="system-ui, sans-serif" font-size="9" fill="#306FE5" font-weight="700" text-anchor="middle">?</text>
+      
+      <text x="42" y="100" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">MANUAL LINK</text>
+      <text x="42" y="109" font-family="system-ui, sans-serif" font-size="6.5" fill="#657187" text-anchor="middle">UNTRACED REVISION</text>
+    </g>
+
+    <!-- Right: 2D Architectural Floor Plan View (x=415, y=32) -->
+    <g transform="translate(415, 32)">
+      <!-- Floor Plan Grid Header Bubbles (A, B, C) -->
+      <g transform="translate(15, 0)">
+        <circle cx="10" cy="8" r="6" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+        <text x="10" y="10.5" font-family="monospace" font-size="6.5" fill="#10233F" text-anchor="middle" font-weight="700">A</text>
+
+        <circle cx="65" cy="8" r="6" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+        <text x="65" y="10.5" font-family="monospace" font-size="6.5" fill="#10233F" text-anchor="middle" font-weight="700">B</text>
+
+        <circle cx="120" cy="8" r="6.5" fill="#EBF2FC" stroke="#306FE5" stroke-width="1.2"/>
+        <text x="120" y="10.5" font-family="monospace" font-size="6.5" fill="#306FE5" text-anchor="middle" font-weight="700">C</text>
+      </g>
+
+      <!-- Floor Plan Internal Walls Outline -->
+      <g transform="translate(15, 18)">
+        <rect x="0" y="0" width="135" height="85" fill="#FAF9F6" stroke="#10233F" stroke-width="1.2"/>
+        <!-- Interior walls -->
+        <line x1="50" y1="0" x2="50" y2="55" stroke="#10233F" stroke-width="1.2"/>
+        <line x1="50" y1="55" x2="105" y2="55" stroke="#10233F" stroke-width="1.2"/>
+        <line x1="90" y1="0" x2="90" y2="30" stroke="#10233F" stroke-width="1.2"/>
+        <line x1="90" y1="55" x2="90" y2="85" stroke="#10233F" stroke-width="1.2"/>
+
+        <!-- Column C-4 Highlight in Plan View -->
+        <rect x="25" y="32" width="30" height="15" fill="#FFFFFF" stroke="#306FE5" stroke-width="1.2"/>
+        <text x="40" y="42.5" font-family="monospace" font-size="7" fill="#306FE5" font-weight="700" text-anchor="middle">C-4</text>
+        <rect x="20" y="35" width="5" height="8" fill="#306FE5"/>
+      </g>
+
+      <!-- Revision Tag & Label -->
+      <text x="15" y="115" font-family="system-ui, sans-serif" font-size="8.5" fill="#10233F" font-weight="700">1. Structural / 2D Drawings</text>
+      <rect x="110" y="85" width="40" height="13" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.6"/>
+      <text x="130" y="94.5" font-family="monospace" font-size="6.5" fill="#657187" text-anchor="middle">Rev C</text>
+    </g>
+
+    <!-- Far Right Callout: Problem Definition Summary (x=600, y=32) -->
+    <g transform="translate(605, 32)">
+      <rect x="0" y="0" width="190" height="110" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="3" height="110" fill="#306FE5"/>
+      
+      <text x="12" y="16" font-family="monospace" font-size="7" fill="#306FE5" font-weight="700">THE CORE CONUNDRUM</text>
+      <text x="12" y="30" font-family="system-ui, sans-serif" font-size="9" fill="#10233F" font-weight="700">"Move Column C-4"</text>
+      
+      <text x="12" y="46" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">A single structural relocation</text>
+      <text x="12" y="57" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">silently impacts 5 other records.</text>
+      <text x="12" y="68" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">Today, these cross-checks</text>
+      <text x="12" y="79" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">must be traced manually.</text>
+
+      <line x1="12" y1="88" x2="178" y2="88" stroke="#D4D9E2" stroke-width="0.5"/>
+      <text x="12" y="100" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700">AERES TARGET: LINKED REASONING</text>
+    </g>
+  </g>
+
+  <!-- =================================================================== -->
+  <!-- LOWER SECTION: THE 6 AFFECTED PROJECT RECORD PANELS (y=225..345)     -->
+  <!-- =================================================================== -->
+  <g transform="translate(35, 222)">
+    <!-- Sub-header -->
+    <text x="0" y="0" font-family="monospace" font-size="7" fill="#657187" letter-spacing="1">DISTRIBUTED PROJECT RECORDS // WHERE CONSEQUENCES PROPAGATE UNSEEN</text>
+    <line x1="0" y1="6" x2="810" y2="6" stroke="#D4D9E2" stroke-width="0.5"/>
+
+    <!-- Panel 1: Specs & Materials (x=0) -->
+    <g transform="translate(0, 14)">
+      <rect x="0" y="0" width="128" height="110" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="128" height="2" fill="#306FE5"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="700">3. SPECS &amp; MATERIALS</text>
+      <line x1="8" y1="17" x2="120" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Mini Table -->
+      <g transform="translate(8, 24)">
+        <text x="0" y="8" font-family="monospace" font-size="6" fill="#657187">MARK</text>
+        <text x="50" y="8" font-family="monospace" font-size="6" fill="#657187">FINISH</text>
+        <line x1="0" y1="12" x2="112" y2="12" stroke="#D4D9E2" stroke-width="0.5"/>
+        <text x="0" y="22" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">EX-01</text>
+        <text x="50" y="22" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Stone Wall</text>
+        <text x="0" y="34" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">EX-02</text>
+        <text x="50" y="34" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Timber Clad</text>
+        <text x="0" y="46" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">EX-03</text>
+        <text x="50" y="46" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Curtain Glass</text>
+      </g>
+      <text x="8" y="98" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Finish schedules drift</text>
+    </g>
+
+    <!-- Panel 2: Soil & Site (x=136) -->
+    <g transform="translate(136, 14)">
+      <rect x="0" y="0" width="128" height="110" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="128" height="2" fill="#10233F"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700">4. SOIL &amp; SITE</text>
+      <line x1="8" y1="17" x2="120" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Strata / Borehole Graphic -->
+      <g transform="translate(18, 26)">
+        <rect x="0" y="0" width="40" height="48" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+        <line x1="0" y1="16" x2="40" y2="16" stroke="#D4D9E2" stroke-width="0.6"/>
+        <line x1="0" y1="32" x2="40" y2="32" stroke="#D4D9E2" stroke-width="0.6"/>
+        <!-- Water table datum -->
+        <line x1="-8" y1="24" x2="48" y2="24" stroke="#306FE5" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="44" y="12" font-family="monospace" font-size="6" fill="#657187">CLAY</text>
+        <text x="44" y="26" font-family="monospace" font-size="6" fill="#306FE5">GWL</text>
+        <text x="44" y="42" font-family="monospace" font-size="6" fill="#657187">ROCK</text>
+      </g>
+      <text x="8" y="98" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Bearing stratum depth</text>
+    </g>
+
+    <!-- Panel 3: Building Codes (x=272) -->
+    <g transform="translate(272, 14)">
+      <rect x="0" y="0" width="128" height="110" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="128" height="2" fill="#306FE5"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="700">5. CODE EXTRACTS</text>
+      <line x1="8" y1="17" x2="120" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Checklist -->
+      <g transform="translate(8, 24)">
+        <rect x="0" y="2" width="8" height="8" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+        <text x="12" y="8" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Corridor Width</text>
+
+        <rect x="0" y="16" width="8" height="8" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+        <text x="12" y="22" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Fire Resistance</text>
+
+        <rect x="0" y="30" width="8" height="8" fill="#FFFFFF" stroke="#10233F" stroke-width="0.8"/>
+        <text x="12" y="36" font-family="system-ui, sans-serif" font-size="6.5" fill="#10233F">Egress Clearances</text>
+      </g>
+      <text x="8" y="98" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Life safety compliance</text>
+    </g>
+
+    <!-- Panel 4: MEP & Services (x=408) -->
+    <g transform="translate(408, 14)">
+      <rect x="0" y="0" width="128" height="110" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="128" height="2" fill="#10233F"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700">6. MEP / SERVICES</text>
+      <line x1="8" y1="17" x2="120" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Duct / Pipe Run sketch -->
+      <g transform="translate(12, 28)">
+        <path d="M 0 10 L 40 10 L 40 30 L 90 30" fill="none" stroke="#F57C00" stroke-width="2"/>
+        <circle cx="40" cy="10" r="3" fill="#D32F2F"/>
+        <text x="0" y="4" font-family="monospace" font-size="6" fill="#F57C00">HVAC TRUNK</text>
+        <text x="0" y="46" font-family="monospace" font-size="6" fill="#D32F2F">PENETRATION CLASH</text>
+      </g>
+      <text x="8" y="98" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Conduit routing clashes</text>
+    </g>
+
+    <!-- Panel 5: Cost & Schedule (x=544) -->
+    <g transform="translate(544, 14)">
+      <rect x="0" y="0" width="128" height="110" fill="#FFFFFF" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="128" height="2" fill="#306FE5"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#306FE5" font-weight="700">7. COST &amp; PROGRAMME</text>
+      <line x1="8" y1="17" x2="120" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <!-- Programme Gantt bars -->
+      <g transform="translate(8, 24)">
+        <text x="0" y="8" font-family="system-ui, sans-serif" font-size="6" fill="#10233F">Structure</text>
+        <rect x="42" y="2" width="40" height="7" fill="#306FE5"/>
+
+        <text x="0" y="22" font-family="system-ui, sans-serif" font-size="6" fill="#10233F">MEP Fix</text>
+        <rect x="65" y="16" width="35" height="7" fill="#EBF2FC" stroke="#306FE5" stroke-width="0.6"/>
+
+        <text x="0" y="36" font-family="system-ui, sans-serif" font-size="6" fill="#10233F">Finishes</text>
+        <rect x="85" y="30" width="25" height="7" fill="#D4D9E2"/>
+      </g>
+      <text x="8" y="98" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Rework delay buffer</text>
+    </g>
+
+    <!-- Panel 6: Synthesis / Industry Benchmark (x=680) -->
+    <g transform="translate(680, 14)">
+      <rect x="0" y="0" width="130" height="110" fill="#FAF9F6" stroke="#D4D9E2" stroke-width="0.8"/>
+      <rect x="0" y="0" width="130" height="2" fill="#10233F"/>
+      <text x="8" y="13" font-family="monospace" font-size="6.5" fill="#10233F" font-weight="700">INDUSTRY EVIDENCE</text>
+      <line x1="8" y1="17" x2="122" y2="17" stroke="#D4D9E2" stroke-width="0.5"/>
+
+      <text x="8" y="34" font-family="system-ui, sans-serif" font-size="16" fill="#306FE5" font-weight="800">$31.3B</text>
+      <text x="8" y="46" font-family="system-ui, sans-serif" font-size="6.5" fill="#657187">Annual US rework from</text>
+      <text x="8" y="55" font-family="system-ui, sans-serif" font-size="6.5" fill="#657187">disconnected project data.</text>
+
+      <text x="8" y="74" font-family="system-ui, sans-serif" font-size="13" fill="#10233F" font-weight="800">48%</text>
+      <text x="8" y="85" font-family="system-ui, sans-serif" font-size="6" fill="#657187">Rework tied to poor comms.</text>
+      <text x="8" y="102" font-family="monospace" font-size="5.5" fill="#657187">SOURCE: FMI / PLANGRID</text>
+    </g>
+  </g>
+
+  <!-- Bottom Explanatory Caption -->
+  <line x1="25" y1="374" x2="855" y2="374" stroke="#D4D9E2" stroke-width="0.8"/>
+  <text x="35" y="387" font-family="system-ui, sans-serif" font-size="7.5" fill="#657187">
+    <tspan fill="#10233F" font-weight="700">Illustrative Documentation Set:</tspan> Column C-4 appears in the CAD model, structural plan, and services programme; nothing links these records automatically. AERES is a research concept for automated cross-record reasoning.
+  </text>
+  <text x="845" y="387" font-family="monospace" font-size="7" fill="#657187" text-anchor="end">PS-81 // AERES-V2</text>
+</svg>
